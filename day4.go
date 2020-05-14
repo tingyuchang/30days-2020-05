@@ -38,18 +38,6 @@ func findComplement(num int) int {
 }
 
 func findComplement2(num int) int {
-	// result, i := 0, 0
-	// for num > 0 {
-	// 	if num&1 == 0 {
-	// 		result++
-	// 		result = result << i
-	// 		fmt.Println("result +1 : ", result)
-
-	// 	}
-	// 	i++
-	// 	num = num >> 1
-	// 	fmt.Println("result: ", result)
-	// }
 	tmp := num
 	mask := 0
 	for tmp > 0 {
